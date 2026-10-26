@@ -1,0 +1,54 @@
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Dependencies ###
+node_modules/
+
+### Environment variables and secrets ###
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+### Build output ###
+dist/
+build/
+
+### Logs ###
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac and Windows ###
+.DS_Store
+Thumbs.db
